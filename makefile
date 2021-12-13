@@ -71,5 +71,11 @@ day12: src/day12.cpp
 day12_2: src/day12_2.cpp
 	g++ -g -Wall -o aoc src/day12_2.cpp
 
+day13: src/day13.cpp
+	g++ -g -Wall -o aoc src/day13.cpp
+
+day13_2: src/day13_2.cpp
+	g++ -g -Wall -o aoc src/day13_2.cpp
+
 clean: 
 	$(RM) aoc
